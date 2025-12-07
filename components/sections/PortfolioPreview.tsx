@@ -1,29 +1,27 @@
-import Image from 'next/image'
-
 const portfolioItems = [
   {
     title: 'School Uniform Collection',
     category: 'Schools',
     description: 'Complete uniform sets with custom embroidery',
-    image: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&h=600&fit=crop&auto=format',
   },
   {
     title: 'Corporate Workwear',
     category: 'Corporate',
     description: 'Professional uniforms for business teams',
-    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop&auto=format',
   },
   {
     title: 'Industrial Safety Gear',
     category: 'Industrial',
     description: 'PPE and construction wear',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop&auto=format',
   },
   {
     title: 'Club Branding',
     category: 'Society Clubs',
     description: 'Elegant branded apparel for organizations',
-    image: 'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=800&h=600&fit=crop',
+    image: 'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=800&h=600&fit=crop&auto=format',
   },
 ]
 
@@ -49,12 +47,11 @@ export default function PortfolioPreview() {
             >
               {/* Portfolio Image */}
               <div className="aspect-video relative overflow-hidden bg-secondary-200">
-                <Image
+                <img
                   src={item.image}
                   alt={item.title}
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
               

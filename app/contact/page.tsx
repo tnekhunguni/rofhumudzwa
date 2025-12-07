@@ -23,7 +23,7 @@ export default function ContactPage() {
         <div className="mt-12 rounded-xl overflow-hidden shadow-lg">
           <div className="aspect-video relative bg-secondary-200">
             <img
-              src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=1200&h=600&fit=crop"
+              src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=1200&h=600&fit=crop&auto=format"
               alt="Business location"
               className="w-full h-full object-cover"
             />

@@ -6,7 +6,7 @@ const services = [
     title: 'Schools',
     icon: '🎓',
     description: 'Creating unity and pride through custom-embroidered school apparel',
-    image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=800&fit=crop',
+    image: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=800&fit=crop&auto=format',
     features: [
       'Matric Jackets - Premium quality jackets with school logos and custom embroidery',
       'T-Shirts - Comfortable, durable t-shirts perfect for school events and daily wear',
@@ -21,7 +21,7 @@ const services = [
     title: 'Corporate Workplaces',
     icon: '💼',
     description: 'Professional branding solutions for modern businesses',
-    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=800&fit=crop',
+    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=800&fit=crop&auto=format',
     features: [
       'Customized Uniforms - Tailored workwear that reflects your brand identity',
       'Professional Workwear - High-quality garments designed for corporate environments',
@@ -36,7 +36,7 @@ const services = [
     title: 'Society Clubs',
     icon: '👔',
     description: 'Elegant branded apparel for clubs and organizations',
-    image: 'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=800&h=800&fit=crop',
+    image: 'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=800&h=800&fit=crop&auto=format',
     features: [
       'Club Identity Apparel - Custom-designed clothing that represents your organization',
       'Elegant Branding - Sophisticated embroidery and printing for refined appearance',
@@ -51,7 +51,7 @@ const services = [
     title: 'Industrial & Construction Gear',
     icon: '🦺',
     description: 'Durable, safe, and compliant protective workwear',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=800&fit=crop',
+    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=800&fit=crop&auto=format',
     features: [
       'PPE (Personal Protective Equipment) - Certified safety gear meeting industry standards',
       'Construction Uniforms - Durable workwear designed for tough job sites',
@@ -66,7 +66,7 @@ const services = [
     title: 'Hazmat Suits',
     icon: '🧪',
     description: 'Protective clothing for high-risk environments',
-    image: 'https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=800&h=800&fit=crop',
+    image: 'https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=800&h=800&fit=crop&auto=format',
     features: [
       'High-Risk Protection - Specialized suits for hazardous material handling',
       'Custom Branding Options - Add identification and branding to protective gear',
@@ -81,7 +81,7 @@ const services = [
     title: 'Branded Stationery',
     icon: '📄',
     description: 'Professional business stationery with custom branding',
-    image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=800&fit=crop',
+    image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=800&fit=crop&auto=format',
     features: [
       'Business Cards - Custom-designed cards with your brand identity',
       'Letterheads - Professional stationery for official correspondence',

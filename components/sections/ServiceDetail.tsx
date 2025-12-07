@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 interface ServiceDetailProps {
   service: {
     id: string
@@ -25,12 +23,11 @@ export default function ServiceDetail({ service, index }: ServiceDetailProps) {
       <div className="flex-1">
         {service.image ? (
           <div className="aspect-square relative rounded-xl overflow-hidden shadow-lg">
-            <Image
+            <img
               src={service.image}
               alt={service.title}
-              fill
-              className="object-cover"
-              sizes="(max-width: 1024px) 100vw, 50vw"
+              className="w-full h-full object-cover"
+              loading="lazy"
             />
           </div>
         ) : (
